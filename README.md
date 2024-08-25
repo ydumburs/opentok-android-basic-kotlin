@@ -10,16 +10,16 @@ Changes Made
 
 How to Launch the App
 ======================
-Open the project folder in Android Studio. Set a session credentials in the config file and run the app. For more details, please visit [Basic-Video-Chat-Java](https://github.com/opentok/opentok-android-sdk-samples/tree/main/Basic-Video-Chat-Java)
+Open the project folder in Android Studio. Set your session credentials in the config file and run the app. For more details, please visit [Basic-Video-Chat-Java](https://github.com/opentok/opentok-android-sdk-samples/tree/main/Basic-Video-Chat-Java)
 
 App Screenshots
 ======================
 <img width="366" alt="Screenshot 2024-08-20 at 3 37 13 PM" src="https://github.com/user-attachments/assets/24b06b2c-f032-46e3-b00d-8e4efa9a2f9e">
 
-Added Code and Layout Details
+Added Changes Details
 ======================  
 ## **Connect button functionality**  
-The requestPermissions method, which was originally called in the onCreate method, has been commented out. Instead, it is now called within the connect function. This change ensures that permissions are requested when the user clicks the "Connect" button, rather than during the activity's creation.
+The `requestPermissions` method, which was originally called in the onCreate method, has been commented out. Instead, it is now called within the connect function. This change ensures that permissions are requested when the user clicks the `Connect` button, rather than during the activity's creation.
 ```
 // in MainActivity.java
     override fun onCreate(savedInstanceState: Bundle?) {
